@@ -1,0 +1,524 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"filenam",
+				"filenamewrite"
+			],
+			[
+				"writepd",
+				"writepdbnoext"
+			],
+			[
+				"readpd",
+				"readpdbnoext"
+			],
+			[
+				"cstr",
+				"cstrinp"
+			],
+			[
+				"crdf",
+				"crdfields"
+			],
+			[
+				"mod",
+				"modsum"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 52.0,
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable p",
+				"Package Control: Enable Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"repl pyth",
+				"SublimeREPL: Python"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"repl python",
+				"SublimeREPL: Python"
+			],
+			[
+				"sublimerepl",
+				"SublimeREPL: Python"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"package cont",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/usr/people/isp/workspace/samplerer/genfiles.py",
+		"/usr/people/isp/.config/sublime-text-3/Packages/User/Pylinter.sublime-settings",
+		"/usr/people/isp/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/usr/people/isp/.config/sublime-text-3/Packages/SublimeREPL/README.md",
+		"/usr/people/isp/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
+		"/usr/people/isp/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/usr/people/isp/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/usr/people/isp/.config/sublime-text-3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/usr/people/isp/workspace/samplerer/fileio/outputprinter.py",
+		"/usr/people/isp/workspace/samplerer/defaults.config",
+		"/data/isp03/cm/test/simulation.config",
+		"/usr/people/isp/workspace/samplerer/fileio/__init__.py",
+		"/data/isp03/cm/wt/params.ctrl",
+		"/data/isp03/transaminase/pmf_am1/umbsamp/set_c0.5_c0.75_k150_k150/umbsamp_submit.inp",
+		"/data/isp03/cm/bulk/params.ctrl",
+		"/data/isp03/transaminase/pmf_am1/params.ctrl",
+		"/data/isp03/cm/bulk/findtraj/set_c1.45_c1.75_fr25/trajprop_fulltrace.txt",
+		"/data/isp03/cm/bulk/selectedtrajs.txt",
+		"/data/isp03/cm/bulk/tps_getp/set_r1_ws0.35_we0.45/trajsum.txt",
+		"/data/isp03/cm/bulk/tps_getp/set_r3_ws-1.9_we-1.8/tps_intgfor.inp",
+		"/data/isp03/cm/bulk/tps_getp.log",
+		"/data/isp03/cm/bulk/tps_getp/set_r3_ws-1.9_we-1.8/tps_rstgen.inp",
+		"/data/isp03/cm/bulk/tps_getp/set_r3_ws-1.9_we-1.8/rsum1.txt",
+		"/data/isp/programs/intel/composer_xe_2013/pkg_bin/idbvars.sh",
+		"/data/isp/programs/intel/composer_xe_2013/tbb/bin/tbbvars.sh",
+		"/data/isp/programs/intel/bin/compilervars.sh",
+		"/data/isp/programs/intel/composer_xe_2013/pkg_bin/compilervars_arch.sh",
+		"/data/isp/programs/intel/composer_xe_2013.3.163/bin/intel64/idbvars.sh",
+		"/data/isp/exe/dftb_mpi/charmm",
+		"/data/isp03/cm/c88k_r90s/umbsamp/set_c-4_k150/umbsamp_submit.inp",
+		"/data/isp03/cm/c88k_r90s/params.ctrl",
+		"/data/isp03/cm/c88k_r90s/template/mut.crd",
+		"/data/isp03/cm/c88k_r90s/umbsamp/set_c-4_k150/umbsamp_submit.out",
+		"/data/isp03/cm/c88k_r90s/umbsamp/set_c-4_k150/mini.crd",
+		"/data/isp03/cm/c88k_r90s/template/mutatefromwt/cm.crd",
+		"/data/isp03/cm/c88k_r90s/template/mut.pdb",
+		"/usr/people/isp/scripts/programs/respfit.py",
+		"/data/isp03/cm/c88k_r90s/template/mutatefromwt/A.SEQ",
+		"/data/isp03/cm/wt/template/noecons.inp",
+		"/data/isp03/cm/c88k_r90s/template/mutatefromwt/setup.inp",
+		"/data/isp03/cm/c88k_r90s/template/mutatefromwt/output0.crd",
+		"/data/isp03/cm/c88k_r90s/template/mutatefromwt/cm2.crd",
+		"/data/isp03/cm/linear/umbsamp/set_c-4_k150/umbsamp_submit.inp",
+		"/data/isp03/cm/linear/params.ctrl",
+		"/data/isp03/cm/linear/setup.inp",
+		"/data/isp03/cm/linear/output0.crd",
+		"/data/isp03/cm/linear/cm_linear.crd",
+		"/data/isp03/cm/c88k_r90s/template/mutatefromwt/cm_linear.crd",
+		"/data/isp03/cm/c88k_r90s/template/mutatefromwt/mprotein3.crd",
+		"/data/isp03/cm/c88k_r90s/template/mutatefromwt/mutate.inp",
+		"/data/isp03/cm/c88k_r90s/template/mutatefromwt/mutate.out",
+		"/data/isp03/cm/c88k_r90s/template/mutatefromwt/mprotein3.pdb",
+		"/data/isp03/cm/wt/umbsamp/set_c0.4_k150/umbsamp_submit.inp",
+		"/data/isp03/cm/c88k_r90s/template/mutatefromwt/cm.pdb",
+		"/data/isp03/cm/wt/template/cm.pdb",
+		"/data/isp03/cm/c88k_r90s/template/build/6_heat/md-equil.inp",
+		"/data/isp03/cm/c88k_r90s/template/build/6_heat/md-heat.inp",
+		"/data/isp03/cm/c88k_r90s/template/build/6_heat/md-heat.out",
+		"/data/isp/MATLAB/definitions/constants.def",
+		"/usr/people/isp/scripts/mouse/test.txt",
+		"/usr/people/isp/scripts/mouse/unified",
+		"/data/isp03/cm/c88k_r90s/template/build/6_heat/structureread.crd",
+		"/data/isp03/cm/c88k_r90s/template/build/6_heat/par_all27_prot_na.prm",
+		"/data/isp03/cm/c88k_r90s/template/build/6_heat/mutant-neutralized.crd",
+		"/data/isp03/cm/c88k_r90s/template/build/5_neutralize/neutralize.out",
+		"/data/isp03/cm/c88k_r90s/template/build/4_solvate/solvate.out",
+		"/data/isp03/cm/c88k_r90s/template/build/5_neutralize/neutralize.inp",
+		"/data/isp03/cm/c88k_r90s/template/build/4_solvate/solvate.inp",
+		"/data/isp03/cm/c88k_r90s/template/build/5_neutralize/loop-1cbn-1.log",
+		"/data/isp03/cm/c88k_r90s/template/build/5_neutralize/addions.str",
+		"/data/isp03/cm/bulk/umbsamp.old/set_c0.9_k150/umbsamp_submit.inp",
+		"/data/isp03/cm/wt/template/cm.crd",
+		"/data/isp03/cm/r90cit/params.ctrl",
+		"/data/isp03/cm/c88k_r90s/template/build/2_psfgen/X.SEQ",
+		"/data/isp03/cm/c88k_r90s/template/build/1_prep/crambin_example/initial-minimization.inp",
+		"/data/isp03/cm/c88k_r90s/template/build/3_minimize/initial-minimization.inp",
+		"/data/isp03/cm/c88k_r90s/template/build/2_psfgen/base2.crd",
+		"/data/isp03/cm/c88k_r90s/template/build/2_psfgen/output0.crd",
+		"/data/isp03/cm/c88k_r90s/template/build/2_psfgen/setup.inp",
+		"/data/isp03/cm/c88k_r90s/template/build/1_prep/toadd.pdb",
+		"/data/isp03/cm/c88k_r90s/template/build/1_prep/toadd.crd",
+		"/data/isp03/cm/c88k_r90s/template/build/2_psfgen/base.crd",
+		"/data/isp03/cm/c88k_r90s/template/build/1_prep/base.crd",
+		"/data/isp03/cm/c88k_r90s/template/build/1_prep/base.pdb",
+		"/data/isp03/cm/bulk/findtraj.old/set_c1.9_c1.9_fr17/findtraj_submit.out",
+		"/data/isp03/cm/bulk/findtraj.log",
+		"/data/isp03/cm/bulk/findtraj/set_c2.05_c1.9_fr47/rsum1_rev.txt",
+		"/data/isp03/cm/bulk/findtraj/set_c2.05_c1.9_fr47/rsum1_for.txt",
+		"/data/isp03/cm/bulk/findtraj/set_c2.05_c2.05_fr27/rsum2_rev.txt",
+		"/usr/people/isp/.sidewinderx6/p2/S25.sh",
+		"/usr/people/isp/.sidewinderx6/p2/S26.sh",
+		"/data/isp03/cm/c88k_r90s/template/build/2_psfgen/setup_in.crd",
+		"/usr/people/isp/scripts/programs/charmm_setup.prl",
+		"/usr/people/isp/scripts/programs/charmm_setup.sh",
+		"/data/isp03/cm/c88k_r90s/template/build/2_psfgen/W.SEQ",
+		"/usr/people/isp/scripts/system/ui/conky/conkyrc_lunatico",
+		"/data/isp03/cm/c88k_r90s/template/build/1_prep/1fnk_A.pdb",
+		"/data/isp03/cm/c88k_r90s/template/build/1_prep/1fnk_B.pdb",
+		"/data/isp03/cm/c88k_r90s/template/build/1_prep/1fnk_C.pdb",
+		"/data/isp03/cm/c88k_r90s/template/build/1_prep/1fnk_ABC.pdb",
+		"/data/isp03/cm/c88k_r90s/template/build/1_prep/1fnk_C.crd",
+		"/data/isp03/cm/c88k_r90s/template/build/1_prep/1fnk_A.crd",
+		"/data/isp03/cm/c88k_r90s/template/build/1_prep/1fnk_B.crd",
+		"/data/isp03/cm/c88k_r90s/template/build/1_prep/cm.pdb",
+		"/data/isp03/cm/c88k_r90s/template/build/1_prep/1fnk.crd",
+		"/data/isp03/cm/c88k_r90s/template/build/1_prep/1fnk.pdb",
+		"/data/isp/programs/charmm_system/removedcd.py",
+		"/data/isp03/cm/bulk/findtraj/set_c1.75_c1.75_fr6/findtraj_submit.inp",
+		"/usr/people/isp/workspace/samplerer/umbsamp.inp",
+		"/data/isp03/cm/bulk/template/basins.def",
+		"/data/isp03/cm/wt/tps_getp/set_r3_ws0.9_we1/tps_rstgen.inp",
+		"/usr/people/isp/scripts/system/keyboard/spotify/log5.txt",
+		"/usr/people/isp/scripts/system/keyboard/spotify/next.sh",
+		"/data/isp03/cm/test/params.ctrl",
+		"/usr/people/isp/scripts/system/keyboard/spotify/spotify-notify.py",
+		"/data/isp/MATLAB/definitions/CHARMMv2/umbsamp.inp",
+		"/data/isp03/cm/bulk/umbsamp/set_c-4_k150/umbsamp_submit.inp",
+		"/data/isp03/cm/bulk/umbsamp.old/set_c-2.3_k150/umbsamp_submit.out",
+		"/data/isp03/cm/antibody/umbsamp/set_c1.65_k150/umbsamp_submit.inp",
+		"/data/isp03/cm/antibody/umbsamp.log",
+		"/data/isp03/cm/bulk/template/solvation/md-equil.out",
+		"/data/isp03/cm/bulk/template/umbsamp.inp",
+		"/data/isp03/cm/bulk/template/solvation/md-equil.inp",
+		"/data/isp03/cm/bulk/umbsamp/set_c-2.7_k150/umbsamp_submit.inp",
+		"/data/isp03/cm/bulk/template/bulk.pdb",
+		"/data/isp03/cm/bulk/template/solvation/equil.crd",
+		"/data/isp03/cm/bulk/template/solvation/md-heat.out",
+		"/data/isp03/cm/bulk/umbsamp.old/set_c0.6_k150/umbsamp_submit.inp"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"999.",
+			"ARG",
+			"LYS",
+			"renae",
+			"renam",
+			"rxncoor",
+			"\n	",
+			"oh2",
+			"999.999",
+			"HOH",
+			"greatervalue",
+			"95",
+			"POT",
+			" RO",
+			"RO",
+			"A",
+			"HIS",
+			"CSD",
+			"ICEDIR",
+			"PERL5LIB",
+			"system",
+			"CSD",
+			"315",
+			" A    ",
+			"949",
+			"umbrella",
+			"	[",
+			"\n",
+			"	",
+			"noe",
+			"&&",
+			"A",
+			"cubic",
+			"xdim",
+			"nsavv",
+			"frames",
+			"ASP",
+			"dftb3_",
+			"dftb3_phubbard",
+			"oh2",
+			"end",
+			"bulks",
+			"3",
+			"xdim",
+			"imal",
+			"imall",
+			"loop",
+			"npos",
+			"999",
+			"touch",
+			"955",
+			"HX38",
+			"printwithcolor",
+			"didtrunc",
+			"spacedelim",
+			"DIHEDRALS",
+			"NH1",
+			"HA  ",
+			"N2",
+			"NH1",
+			"CT2",
+			"H28",
+			"NH1",
+			"HA",
+			"CT2",
+			"dihedrALS	",
+			"ANGLES",
+			"ANGLE",
+			"CNE1",
+			"-",
+			"LLP",
+			"createrespinput",
+			"chrage",
+			"Charge",
+			"charge",
+			"CNEI",
+			"BONDS",
+			"0",
+			"LYS",
+			"par",
+			"top",
+			"par",
+			"patch",
+			"LYS",
+			"LLP",
+			"258",
+			"LYS",
+			"print ",
+			"print",
+			"()\n",
+			"d'",
+			"LYS",
+			"HZ3",
+			"LYS",
+			"BONDS",
+			"KET",
+			"CA   NC2  HP",
+			"ANGLES",
+			"ANGLE",
+			"LYS",
+			"guess",
+			"NZ",
+			"LYS",
+			"LYC",
+			"LYE",
+			"LYS",
+			" ",
+			"ASP",
+			"HIS",
+			"HOH B",
+			"HOH A",
+			"PLA",
+			"opt",
+			"LYS",
+			"22 Atom",
+			"numatoms",
+			"potential",
+			"print",
+			"job cpu",
+			"Dihedrals",
+			"CC   CT1  NH2  H",
+			"CC   CT1  NH2  ",
+			"CC   CT1  NH2  H",
+			"'d'",
+			"\"d\"",
+			"HETATM",
+			"readpdb",
+			"print"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"CYS",
+			" B    ",
+			" C    ",
+			"[",
+			"",
+			"\n	",
+			"",
+			"\n",
+			"LYS",
+			"HOH X",
+			"HOH W",
+			"ATOM",
+			"gagarin"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "genfiles.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 382.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,7 @@
+Syntax Guide:
+
+umbsamp-setup
+
+     { [1:0.1:4  ]  [0:3:5  ]  }  { [5:0.1:6 ] [0.3 x 10] }  means for the first group of simulations, scan in the 1st dimension from 1 to 4 in 0.1 increments and in the 2nd dimension, scan from 0 to 5 in steps of 3.  For the second group, scan in the 1st dimensions from  5 to 6 in 0.1 increments and in the 2nd dimension, repeat the 0.3 value 10 times
+
+     Keys: centers, kval     The center keys is defined as the matrix setup.  So is kvals.  If only one value of kval is given, then that value is assumed for all kvals
