@@ -5,8 +5,8 @@ Created on Jun 24, 2014
 '''
 def allocatevariables():
     global printlevel, debuglevel
-    printlevel=1
-    debuglevel=1
-    
-    
-    
+    printlevel=6
+    debuglevel=0
+
+
+

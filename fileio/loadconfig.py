@@ -70,12 +70,10 @@ def evaluate_datavariables(data):
     return data
 
 def wrapper_loadconfigfile(fname):
-
     parser=read_configfile(fname)
     config=convert_configfiletodictionary(parser)
     data=convert_configdictionarytodata(config)
     finaldata=evaluate_datavariables(data)
-
     return finaldata
 
 

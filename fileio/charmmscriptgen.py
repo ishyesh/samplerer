@@ -18,6 +18,10 @@ def readcoor(config):
     stringout = "read coor card name \""+config["crdname"]["value"] + "\"   !Read Coordinates from CRD file"
     return stringout
 
+def writecoor(config):
+    stringout = "write coor card name \""+config["crdwritename"]["value"] + "\"   !Read Coordinates from CRD file"
+    return stringout
+
 def quantum(config):
     if config["quantumtype"]["value"] == "None":
         stringout="! No quantum region specified"
