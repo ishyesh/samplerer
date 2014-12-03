@@ -9,7 +9,6 @@ import fileio.outputprinter
 import fileio.loadconfig
 import variablemanipulation.configmanipulation
 
-from pdb import set_trace as _breakpoint
 
 
 universal.allocatevariables()
