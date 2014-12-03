@@ -9,8 +9,7 @@ import fileio.outputprinter
 import fileio.loadconfig
 import variablemanipulation.configmanipulation
 
-sdf
-sdf
+
 universal.allocatevariables()
 
 configfilename = "/usr/people/isp/workspace/samplerer/defaults.config"
