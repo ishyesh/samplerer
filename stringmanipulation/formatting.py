@@ -22,3 +22,6 @@ def autogennumstringfromlength(number,veclen):
     stringformat='{:0>'+str(fieldwidth)+'d}'
     string=stringformat.format(number)
     return string
+
+def genvaluecommentstring(config):
+    return config["value"]+" -   "+config["comment"]

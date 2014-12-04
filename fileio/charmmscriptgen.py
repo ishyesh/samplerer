@@ -56,7 +56,7 @@ def randomseed(config):
     return strwrite
 
 def dynamics(config):
-
+    import stringmanipulation.formatting as smf
 
     stringdyna=""
 
@@ -76,9 +76,23 @@ def dynamics(config):
         pass
 
 
-    stringdyna=stringdyna+"dyna -    !Call dynamics \n"
-    stringdyna=stringdyna+"    "+config["header_startpoint"]["value"]+" -   "+config["header_startpoint"]["comment"]+"\n"
+    try:
 
+        if config["parameter_iuncrd"]["value"]!=-1:
+            stringdyna=stringdyna+"open write unit "+str(config["parameter_iuncrd"]["value"])+ " formatted name \""+config["binarywritename_positions"]["value"] +"\"   !Open unformatted file to write coordinates\n"
+    except:
+        pass
+
+    try:
+
+        if config["parameter_iunvel"]["value"]!=-1:
+            stringdyna=stringdyna+"open write unit "+str(config["parameter_iunvel"]["value"])+ " formatted name \""+config["binarywritename_velocity"]["value"] +"\"   !Open unformatted file to write velocities\n"
+    except:
+        pass
+
+    stringdyna=stringdyna+"dyna -    !Call dynamics \n"
+    stringdyna=stringdyna+"    "+smf.genvaluecommentstring(config["header_startpoint"])+ "\n"
+    stringdyna=stringdyna+"    "+smf.genvaluecommentstring(config["header_dynamicstype"])+ "\n"
     nkeys=0
     for keys in config:
         if "parameter_" in keys:
@@ -101,13 +115,13 @@ def ratchetdynamics(config):  #umbsamp_ratchetdynamics
 
     ratchetingsteps=config["equilrxncoorsteps"]["value"]
 
-    stringadd=""
+    stringadd="! Write out serial micro-equilibrations { \n"
     isfirststep=1
     counter=0
 
     doorg=config["organizefiles"]["value"]
     if doorg:
-        stringadd=stringadd+"syst \"mkdir restart\" \n\n"
+        stringadd=stringadd+"syst \"mkdir restarts\" \n\n"
         addstr="restarts/"
     else:
         addstr=""
@@ -136,6 +150,7 @@ def ratchetdynamics(config):  #umbsamp_ratchetdynamics
         stringadd=stringadd+"\n"
 
         isfirststep=0
+    stringadd=stringadd+" ! } Finished writing serial micro-equilibrations"
     return stringadd
 
 def umbrellacenter(config):
